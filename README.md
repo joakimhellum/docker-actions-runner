@@ -1,5 +1,8 @@
 # Docker images for GitHub Actions runner
 
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/joakimhellum/actions-runner)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/joakimhellum/actions-runner)
+
 Docker images for self-hosted [GitHub Actions runner](https://help.github.com/en/github/automating-your-workflow-with-github-actions/hosting-your-own-runners).
 
 > ⚠️ **Warning**: Using self-hosted runners with public repositories is **not** recommended. Forks of your public repository can potentially run dangerous code on your self-hosted runner by creating a pull request that executes the code in a workflow.
