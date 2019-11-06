@@ -3,7 +3,7 @@
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/joakimhellum/actions-runner)
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/joakimhellum/actions-runner)
 
-Docker images for self-hosted [GitHub Actions runner](https://help.github.com/en/github/automating-your-workflow-with-github-actions/hosting-your-own-runners).
+(Experimental) Docker images for [GitHub Actions self-hosted runner](https://help.github.com/en/github/automating-your-workflow-with-github-actions/hosting-your-own-runners).
 
 > ⚠️ **Warning**: Using self-hosted runners with public repositories is **not** recommended. Forks of your public repository can potentially run dangerous code on your self-hosted runner by creating a pull request that executes the code in a workflow.
 > For more information, see [About self-hosted runners](https://help.github.com/en/github/automating-your-workflow-with-github-actions/about-self-hosted-runners#self-hosted-runner-security-with-public-repositories).
@@ -17,7 +17,7 @@ Docker images for self-hosted [GitHub Actions runner](https://help.github.com/en
 | Name | Description |
 |---|---|
 | `REPO_URL` | **Required**. The URL of the repository. |
-| `GITHUB_TOKEN` | **Required**. A GitHub token. This is used for runner registration. |
+| `GITHUB_TOKEN` | **Required**. The runner registration token. |
 | `RUNNER_NAME` | The name of the runner. Default: `$(hostname)`. |
 | `WORK_FOLDER` | The name of the work folder. Default: `_work`. |
 
